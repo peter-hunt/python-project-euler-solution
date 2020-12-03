@@ -18,6 +18,10 @@ def initial_solve(limit):
     return result
 
 
+def improved_solve(limit):
+    pass
+
+
 def cheaty_solve(limit):
     result = 0
     limit -= 1
@@ -36,4 +40,5 @@ def cheaty_solve(limit):
 
 # 233168
 print(initial_solve(limit))
-# print(cheaty_solve(limit))
+print(improved_solve(limit))
+print(cheaty_solve(limit))

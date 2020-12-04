@@ -60,11 +60,6 @@ def improved_solve(count):
     pass
 
 
-def cheaty_solve(count):
-    pass
-
-
 # 76576500
 print(initial_solve(count))
 # print(improved_solve(count))
-# print(cheaty_solve(count))

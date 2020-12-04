@@ -76,11 +76,6 @@ def improved_solve(limit):
     return result
 
 
-def cheaty_solve(limit):
-    pass
-
-
 # 837799
 print(initial_solve(limit))
 print(improved_solve(limit))
-# print(cheaty_solve(limit))

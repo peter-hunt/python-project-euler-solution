@@ -21,18 +21,18 @@ limit = 20
 
 
 def initial_solve(limit):
-    pass
+    result = 2
+
+    for i in range(3, limit + 1):
+        result = lcm(result, i)
+
+    return result
 
 
 def improved_solve(limit):
-    pass
-
-
-def cheaty_solve(limit):
     return reduce(lcm, range(1, limit + 1))
 
 
 # 232792560
-# print(initial_solve(limit))
-# print(improved_solve(limit))
-print(cheaty_solve(limit))
+print(initial_solve(limit))
+print(improved_solve(limit))

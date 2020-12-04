@@ -31,11 +31,6 @@ def improved_solve(total):
                 return a * b * int(c)
 
 
-def cheaty_solve(total):
-    pass
-
-
 # 31875000
 print(initial_solve(total))
 print(improved_solve(total))
-# print(cheaty_solve(total))

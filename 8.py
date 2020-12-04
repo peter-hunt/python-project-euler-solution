@@ -75,11 +75,6 @@ def improved_solve(numbers):
     pass
 
 
-def cheaty_solve(numbers):
-    pass
-
-
 # 23514624000
 print(initial_solve(numbers))
 # print(improved_solve(numbers))
-# print(cheaty_solve(numbers))

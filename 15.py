@@ -48,11 +48,6 @@ def improved_solve(width, height):
     pass
 
 
-def cheaty_solve(width, height):
-    pass
-
-
-# 837799
+# 137846528820
 print(initial_solve(size, size))
 # print(improved_solve(size, size))
-# print(cheaty_solve(size, size))

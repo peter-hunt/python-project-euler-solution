@@ -32,11 +32,6 @@ def improved_solve(number):
             return number
 
 
-def cheaty_solve(number):
-    pass
-
-
 # 6857
 print(initial_solve(number))
 print(improved_solve(number))
-# print(cheaty_solve(number))

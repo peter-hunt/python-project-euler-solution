@@ -93,11 +93,6 @@ def improved_solve(grid):
     pass
 
 
-def cheaty_solve(grid):
-    pass
-
-
 # 70600674
 print(initial_solve(grid))
 # print(improved_solve(grid))
-# print(cheaty_solve(grid))

@@ -31,11 +31,6 @@ def improved_solve(digit):
                     return i
 
 
-def cheaty_solve(digit):
-    pass
-
-
 # 906609
 print(initial_solve(digit))
 print(improved_solve(digit))
-# print(cheaty_solve(digit))

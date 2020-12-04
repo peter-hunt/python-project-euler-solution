@@ -48,11 +48,6 @@ def improved_solve(index):
     return prime_numbers[-1]
 
 
-def cheaty_solve(index):
-    pass
-
-
 # 104743
 print(initial_solve(index))
 print(improved_solve(index))
-# print(cheaty_solve(index))

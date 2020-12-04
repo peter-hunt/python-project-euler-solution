@@ -9,7 +9,6 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 
 from math import ceil, floor
 
-
 digit = 3
 
 
@@ -39,4 +38,4 @@ def cheaty_solve(digit):
 # 906609
 print(initial_solve(digit))
 print(improved_solve(digit))
-# print(cheaty_solve(limit))
+# print(cheaty_solve(digit))

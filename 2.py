@@ -16,7 +16,6 @@ limit = 4_000_000
 
 def initial_solve(limit):
     result = 0
-
     a = 1
     b = 2
 
@@ -31,7 +30,6 @@ def initial_solve(limit):
 
 def improved_solve(limit):
     result = 0
-
     a = 1
     b = 2
 
@@ -44,7 +42,6 @@ def improved_solve(limit):
 
 def cheaty_solve(limit):
     result = 0
-
     a = 2
     PHI = 1.61803398874989484820
 

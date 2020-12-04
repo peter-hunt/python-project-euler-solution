@@ -12,9 +12,11 @@ limit = 1000
 
 def initial_solve(limit):
     result = 0
+
     for i in range(1, limit):
         if i % 3 == 0 or i % 5 == 0:
             result += i
+
     return result
 
 
@@ -40,5 +42,5 @@ def cheaty_solve(limit):
 
 # 233168
 print(initial_solve(limit))
-print(improved_solve(limit))
+# print(improved_solve(limit))
 print(cheaty_solve(limit))

@@ -33,6 +33,6 @@ def cheaty_solve(limit):
 
 
 # 232792560
-# print(initial_solve(digit))
-# print(improved_solve(digit))
+# print(initial_solve(limit))
+# print(improved_solve(limit))
 print(cheaty_solve(limit))

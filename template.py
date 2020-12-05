@@ -15,14 +15,14 @@ def initial_func(arg):
     return result
 
 
-# faster way
+# fastest uncheating way
 def improved_func(limit):
     result = 0  # default result
     # code
     return result
 
 
-# fastest way but using cheaty algorithms
+# fastest way but with cheaty algorithms
 # not all challenges have a cheaty solution
 def cheaty_func(limit):
     result = 0  # default result

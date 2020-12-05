@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Run
-  Project Euler Solution Runner
+  Python Project Euler Solution Runner
 
 Usage:
   run [<index>]

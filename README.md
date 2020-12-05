@@ -1,4 +1,4 @@
-# Python ProjectEuler Solution
+# PeterHunt's Python ProjectEuler Solution
 
 This is a set of Python personal implementation of solutions to the challenges at [ProjectEuler](https://projecteuler.net)
 
@@ -11,7 +11,13 @@ This will only include solutions of challenges #1-100, here're quotes from [Proj
 ## Usage
 Use the following command to run a solution:
 ```bash
-python3 run <index>
+python3 run.py <index>
+```
+
+## Setup
+Use the following command to setup the Python environment:
+```bash
+pip3 install -r requirements.txt
 ```
 
 ## Contributing

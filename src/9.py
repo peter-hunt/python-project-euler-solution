@@ -12,6 +12,7 @@ Find the product abc.
 
 from math import ceil, sqrt
 
+
 total = 1_000
 
 

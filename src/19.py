@@ -52,6 +52,6 @@ def improved_solve():
     return result
 
 
-# answer
+# 171
 print(initial_solve())
 print(improved_solve())

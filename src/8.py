@@ -32,6 +32,7 @@ greatest product. What is the value of this product?
 from functools import reduce
 from operator import mul
 
+
 numbers = [
     int(digit) for digit in (
         '73167176531330624919225119674426574742355349194934'

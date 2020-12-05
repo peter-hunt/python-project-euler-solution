@@ -39,6 +39,6 @@ def improved_solve(limit):
     return sum(int(digit) for digit in f'{fake_factorial(limit)}')
 
 
-# answer
+# 648
 print(initial_solve(limit))
 print(improved_solve(limit))

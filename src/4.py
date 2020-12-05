@@ -9,6 +9,7 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 
 from math import ceil, floor
 
+
 digit = 3
 
 

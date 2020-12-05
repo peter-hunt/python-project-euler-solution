@@ -21,7 +21,7 @@ NOTE: Once the chain starts the terms are allowed to go above one million.
 limit = 1_000_000
 
 
-def initial_solve(limit):
+def initial_func(limit):
     cache = {1: 0}
 
     def collatz(num):
@@ -43,7 +43,7 @@ def initial_solve(limit):
     return result
 
 
-def improved_solve(limit):
+def improved_func(limit):
     cache = {1: 0}
 
     def collatz(num):
@@ -77,5 +77,5 @@ def improved_solve(limit):
 
 
 # 837799
-print(initial_solve(limit))
-print(improved_solve(limit))
+print(initial_func(limit))
+print(improved_func(limit))

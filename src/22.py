@@ -18,7 +18,7 @@ content = None  # names.txt
 names = eval(f'[{content}]')
 
 
-def initial_solve(names):
+def initial_func(names):
     def name_score(name):
         return sum(ord(letter) - 64 for letter in name)
 
@@ -30,10 +30,10 @@ def initial_solve(names):
     return result
 
 
-def improved_solve(names):
+def improved_func(names):
     pass
 
 
 # 871198282
-print(initial_solve(names))
-# print(improved_solve(names))
+print(initial_func(names))
+# print(improved_func(names))

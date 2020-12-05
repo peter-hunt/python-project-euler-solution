@@ -9,14 +9,14 @@ What is the sum of the digits of the number 2^1000?
 exponent = 1000
 
 
-def initial_solve(exponent):
+def initial_func(exponent):
     return sum(int(digit) for digit in f'{2 ** exponent}')
 
 
-def improved_solve(exponent):
+def improved_func(exponent):
     pass
 
 
 # 1366
-print(initial_solve(exponent))
-# print(improved_solve(exponent))
+print(initial_func(exponent))
+# print(improved_func(exponent))

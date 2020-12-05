@@ -16,7 +16,7 @@ numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 index = 1_000_000
 
 
-def initial_solve(numbers, index):
+def initial_func(numbers, index):
     def perm(numbers):
         if len(numbers) == 1:
             yield [numbers[0]]
@@ -30,10 +30,10 @@ def initial_solve(numbers, index):
     return [*perm(numbers)][index - 1]
 
 
-def improved_solve(numbers, index):
+def improved_func(numbers, index):
     pass
 
 
 # 2783915460
-print(initial_solve(numbers, index))
-# print(improved_solve(numbers, index))
+print(initial_func(numbers, index))
+# print(improved_func(numbers, index))

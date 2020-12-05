@@ -27,7 +27,7 @@ What is the index of the first term in the Fibonacci sequence to contain
 length = 1_000
 
 
-def initial_solve(length):
+def initial_func(length):
     a = 1
     b = 1
     index = 1
@@ -39,10 +39,10 @@ def initial_solve(length):
     return index
 
 
-def improved_solve(length):
+def improved_func(length):
     pass
 
 
 # 2783915460
-print(initial_solve(length))
-# print(improved_solve(length))
+print(initial_func(length))
+# print(improved_func(length))

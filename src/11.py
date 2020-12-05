@@ -62,7 +62,7 @@ grid = [[int(item) for item in line.split()]
         for line in grid.strip().split('\n')]
 
 
-def initial_solve(grid):
+def initial_func(grid):
     result = 0
 
     def update(value):
@@ -89,10 +89,10 @@ def initial_solve(grid):
     return result
 
 
-def improved_solve(grid):
+def improved_func(grid):
     pass
 
 
 # 70600674
-print(initial_solve(grid))
-# print(improved_solve(grid))
+print(initial_func(grid))
+# print(improved_func(grid))

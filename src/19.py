@@ -20,7 +20,7 @@ How many Sundays fell on the first of the month during the twentieth century
 from datetime import date
 
 
-def initial_solve():
+def initial_func():
     result = 0
     weekday = 1
 
@@ -41,7 +41,7 @@ def initial_solve():
     return result
 
 
-def improved_solve():
+def improved_func():
     result = 0
 
     for year in range(1901, 2001):
@@ -53,5 +53,5 @@ def improved_solve():
 
 
 # 171
-print(initial_solve())
-print(improved_solve())
+print(initial_func())
+print(improved_func())

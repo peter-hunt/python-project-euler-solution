@@ -20,7 +20,7 @@ def lcm(a: int, b: int):
 limit = 20
 
 
-def initial_solve(limit):
+def initial_func(limit):
     result = 2
 
     for i in range(3, limit + 1):
@@ -29,10 +29,10 @@ def initial_solve(limit):
     return result
 
 
-def improved_solve(limit):
+def improved_func(limit):
     return reduce(lcm, range(1, limit + 1))
 
 
 # 232792560
-print(initial_solve(limit))
-print(improved_solve(limit))
+print(initial_func(limit))
+print(improved_func(limit))

@@ -13,7 +13,7 @@ from math import ceil, floor
 digit = 3
 
 
-def initial_solve(digit):
+def initial_func(digit):
     for i in range(10 ** (2 * digit), 10 ** (2 * digit - 2), -1):
         if f'{i}' == f'{i}'[::-1]:
 
@@ -22,7 +22,7 @@ def initial_solve(digit):
                     return i
 
 
-def improved_solve(digit):
+def improved_func(digit):
     for i in range(10 ** (2 * digit), 10 ** (2 * digit - 2), -1):
         if f'{i}' == f'{i}'[::-1]:
 
@@ -33,5 +33,5 @@ def improved_solve(digit):
 
 
 # 906609
-print(initial_solve(digit))
-print(improved_solve(digit))
+print(initial_func(digit))
+print(improved_func(digit))

@@ -16,7 +16,7 @@ from math import ceil, sqrt
 total = 1_000
 
 
-def initial_solve(total):
+def initial_func(total):
     for a in range(1, total):
         for b in range(1, total):
             c = sqrt(a ** 2 + b ** 2)
@@ -24,7 +24,7 @@ def initial_solve(total):
                 return a * b * int(c)
 
 
-def improved_solve(total):
+def improved_func(total):
     for a in range(1, total):
         for b in range(ceil(sqrt(2 * a + 1)), total - a * 2):
             c = sqrt(a ** 2 + b ** 2)
@@ -33,5 +33,5 @@ def improved_solve(total):
 
 
 # 31875000
-print(initial_solve(total))
-print(improved_solve(total))
+print(initial_func(total))
+print(improved_func(total))

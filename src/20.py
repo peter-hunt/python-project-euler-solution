@@ -12,7 +12,7 @@ Find the sum of the digits in the number 100!
 limit = 100
 
 
-def initial_solve(limit):
+def initial_func(limit):
     def factorial(n):
         if n < 2:
             return 1
@@ -22,7 +22,7 @@ def initial_solve(limit):
     return sum(int(digit) for digit in f'{factorial(limit)}')
 
 
-def improved_solve(limit):
+def improved_func(limit):
     def fake_factorial(n):
         if n < 2:
             return 1
@@ -40,5 +40,5 @@ def improved_solve(limit):
 
 
 # 648
-print(initial_solve(limit))
-print(improved_solve(limit))
+print(initial_func(limit))
+print(improved_func(limit))

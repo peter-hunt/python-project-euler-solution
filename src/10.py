@@ -13,7 +13,7 @@ from math import sqrt
 limit = 2_000_000
 
 
-def initial_solve(limit):
+def initial_func(limit):
     result = 2
     prime_numbers = [2]
     a = 3
@@ -32,7 +32,7 @@ def initial_solve(limit):
     return result
 
 
-def improved_solve(limit):
+def improved_func(limit):
     result = 2
     prime_numbers = []
     a = 3
@@ -51,5 +51,5 @@ def improved_solve(limit):
 
 
 # 142913828922
-print(initial_solve(limit))
-print(improved_solve(limit))
+print(initial_func(limit))
+print(improved_func(limit))

@@ -14,7 +14,7 @@ four million, find the sum of the even-valued terms.
 limit = 4_000_000
 
 
-def initial_solve(limit):
+def initial_func(limit):
     result = 0
     a = 1
     b = 2
@@ -28,7 +28,7 @@ def initial_solve(limit):
     return result
 
 
-def improved_solve(limit):
+def improved_func(limit):
     result = 0
     a = 1
     b = 2
@@ -40,7 +40,7 @@ def improved_solve(limit):
     return result
 
 
-def cheaty_solve(limit):
+def cheaty_func(limit):
     result = 0
     a = 2
     PHI = 1.61803398874989484820
@@ -53,6 +53,6 @@ def cheaty_solve(limit):
 
 
 # 4613732
-print(initial_solve(limit))
-print(improved_solve(limit))
-print(cheaty_solve(limit))
+print(initial_func(limit))
+print(improved_func(limit))
+print(cheaty_func(limit))

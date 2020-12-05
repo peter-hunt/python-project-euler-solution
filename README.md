@@ -1,4 +1,4 @@
-# ProjectEuler Solution
+# Python ProjectEuler Solution
 
 This is a set of Python personal implementation of solutions to the challenges at [ProjectEuler](https://projecteuler.net)
 

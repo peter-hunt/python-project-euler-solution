@@ -10,7 +10,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 limit = 1000
 
 
-def initial_solve(limit):
+def initial_func(limit):
     result = 0
 
     for i in range(1, limit):
@@ -20,11 +20,11 @@ def initial_solve(limit):
     return result
 
 
-def improved_solve(limit):
+def improved_func(limit):
     pass
 
 
-def cheaty_solve(limit):
+def cheaty_func(limit):
     result = 0
     limit -= 1
 
@@ -41,6 +41,6 @@ def cheaty_solve(limit):
 
 
 # 233168
-print(initial_solve(limit))
-# print(improved_solve(limit))
-print(cheaty_solve(limit))
+print(initial_func(limit))
+# print(improved_func(limit))
+print(cheaty_func(limit))

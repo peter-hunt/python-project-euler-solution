@@ -59,7 +59,7 @@ numbers = [
 ]
 
 
-def initial_solve(numbers):
+def initial_func(numbers):
     result = 0
 
     for i in range(988):
@@ -72,10 +72,10 @@ def initial_solve(numbers):
     return result
 
 
-def improved_solve(numbers):
+def improved_func(numbers):
     pass
 
 
 # 23514624000
-print(initial_solve(numbers))
-# print(improved_solve(numbers))
+print(initial_func(numbers))
+# print(improved_func(numbers))

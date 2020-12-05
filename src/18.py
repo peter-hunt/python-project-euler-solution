@@ -60,7 +60,7 @@ triangle = [
 ]
 
 
-def initial_solve(triangle):
+def initial_func(triangle):
     def maximum(triangle):
         if len(triangle) == 1:
             return triangle[0][0]
@@ -77,7 +77,7 @@ def initial_solve(triangle):
     return maximum(triangle)
 
 
-def improved_solve(triangle):
+def improved_func(triangle):
     current = triangle[-1][:]
 
     for line in reversed(triangle[:-1]):
@@ -90,5 +90,5 @@ def improved_solve(triangle):
 
 
 # 1074
-print(initial_solve(triangle))
-print(improved_solve(triangle))
+print(initial_func(triangle))
+print(improved_func(triangle))

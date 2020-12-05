@@ -53,7 +53,7 @@ tens = [
 ]
 
 
-def initial_solve(limit):
+def initial_func(limit):
     def count_letter(num):
         if num < 20:
             return ones_and_teens[num]
@@ -76,10 +76,10 @@ def initial_solve(limit):
     return sum(count_letter(num) for num in range(1, limit + 1))
 
 
-def improved_solve(limit):
+def improved_func(limit):
     pass
 
 
 # 1366
-print(initial_solve(limit))
-# print(improved_solve(limit))
+print(initial_func(limit))
+# print(improved_func(limit))

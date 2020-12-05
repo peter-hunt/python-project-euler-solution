@@ -19,7 +19,7 @@ from math import floor, sqrt
 limit = 10_000
 
 
-def initial_solve(limit):
+def initial_func(limit):
     def sum_divisors(n):
         result = 1
 
@@ -52,10 +52,10 @@ def initial_solve(limit):
     return result
 
 
-def improved_solve(limit):
+def improved_func(limit):
     pass
 
 
 # 31626
-print(initial_solve(limit))
-# print(improved_solve(limit))
+print(initial_func(limit))
+# print(improved_func(limit))

@@ -13,7 +13,7 @@ from math import floor, sqrt
 number = 600851475143
 
 
-def initial_solve(number):
+def initial_func(number):
     while True:
         for i in range(2, number):
             if number % i == 0:
@@ -23,7 +23,7 @@ def initial_solve(number):
             return number, count
 
 
-def improved_solve(number):
+def improved_func(number):
     while True:
         for i in range(2, floor(sqrt(number)) + 1):
             if number % i == 0:
@@ -34,5 +34,5 @@ def improved_solve(number):
 
 
 # 6857
-print(initial_solve(number))
-print(improved_solve(number))
+print(initial_func(number))
+print(improved_func(number))

@@ -22,7 +22,7 @@ from math import ceil, floor
 length = 100
 
 
-def initial_solve(length):
+def initial_func(length):
     sum_of_square = 0
     sum_of_number = 0
 
@@ -35,11 +35,11 @@ def initial_solve(length):
     return square_of_sum - sum_of_square
 
 
-def improved_solve(digit):
+def improved_func(digit):
     pass
 
 
-def cheaty_solve(digit):
+def cheaty_func(digit):
     length = 100
 
     square_of_sum = (length * (length + 1) // 2) ** 2
@@ -49,6 +49,6 @@ def cheaty_solve(digit):
 
 
 # 25164150
-print(initial_solve(length))
-# print(improved_solve(length))
-print(cheaty_solve(length))
+print(initial_func(length))
+# print(improved_func(length))
+print(cheaty_func(length))

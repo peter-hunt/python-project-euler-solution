@@ -23,7 +23,7 @@ of two abundant numbers.
 from itertools import takewhile
 
 
-def initial_solve():
+def initial_func():
     abundants = [
         i for i in range(12, 28124)
         if 1 + sum(j for j in range(2, i) if i % j == 0) > i
@@ -41,10 +41,10 @@ def initial_solve():
     return sum(i for i in range(1, 28124) if i not in sums)
 
 
-def improved_solve():
+def improved_func():
     pass
 
 
 # 4179871
-print(initial_solve())
-# print(improved_solve())
+print(initial_func())
+# print(improved_func())

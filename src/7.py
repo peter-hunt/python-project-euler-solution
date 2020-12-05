@@ -14,7 +14,7 @@ from math import ceil, floor, sqrt
 index = 10_001
 
 
-def initial_solve(index):
+def initial_func(index):
     prime_numbers = []
     a = 1
 
@@ -31,7 +31,7 @@ def initial_solve(index):
     return prime_numbers[-1]
 
 
-def improved_solve(index):
+def improved_func(index):
     prime_numbers = []
     a = 1
 
@@ -49,5 +49,5 @@ def improved_solve(index):
 
 
 # 104743
-print(initial_solve(index))
-print(improved_solve(index))
+print(initial_func(index))
+print(improved_func(index))

@@ -9,14 +9,14 @@ arg = 0  # default argument
 
 
 # first and easiest way
-def initial_solve(arg):
+def initial_func(arg):
     result = 0  # default result
     # code
     return result
 
 
 # faster way
-def improved_solve(limit):
+def improved_func(limit):
     result = 0  # default result
     # code
     return result
@@ -24,13 +24,13 @@ def improved_solve(limit):
 
 # fastest way but using cheaty algorithms
 # not all challenges have a cheaty solution
-def cheaty_solve(limit):
+def cheaty_func(limit):
     result = 0  # default result
     # code
     return result
 
 
 # [default answer]
-# print(initial_solve(limit))
-print(improved_solve(limit))
-# print(cheaty_solve(limit))
+# print(initial_func(limit))
+print(improved_func(limit))
+# print(cheaty_func(limit))

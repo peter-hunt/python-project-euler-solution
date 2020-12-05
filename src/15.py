@@ -22,7 +22,7 @@ How many such routes are there through a 20×20 grid?
 size = 20
 
 
-def initial_solve(width, height):
+def initial_func(width, height):
     cache = {}
 
     def lattice(width, height):
@@ -44,10 +44,10 @@ def initial_solve(width, height):
     return lattice(width + 1, height + 1)
 
 
-def improved_solve(width, height):
+def improved_func(width, height):
     pass
 
 
 # 137846528820
-print(initial_solve(size, size))
-# print(improved_solve(size, size))
+print(initial_func(size, size))
+# print(improved_func(size, size))

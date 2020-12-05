@@ -28,7 +28,7 @@ from math import floor, sqrt
 count = 500
 
 
-def initial_solve(count):
+def initial_func(count):
     def count_factor(num):
         if sqrt(num) % 1 == 0:
             count = 3
@@ -57,10 +57,10 @@ def initial_solve(count):
     return num
 
 
-def improved_solve(count):
+def improved_func(count):
     pass
 
 
 # 76576500
-print(initial_solve(count))
-# print(improved_solve(count))
+print(initial_func(count))
+# print(improved_func(count))

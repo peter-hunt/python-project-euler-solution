@@ -212,14 +212,14 @@ string = """
 numbers = (int(line) for line in string.strip().split('\n'))
 
 
-def initial_solve(numbers):
+def initial_func(numbers):
     return int(f'{sum(numbers)}'[:10])
 
 
-def improved_solve(numbers):
+def improved_func(numbers):
     pass
 
 
 # 5537376230
-print(initial_solve(numbers))
-# print(improved_solve(numbers))
+print(initial_func(numbers))
+# print(improved_func(numbers))
